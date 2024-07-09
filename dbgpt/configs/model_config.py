@@ -225,8 +225,16 @@ LLM_MODEL_CONFIG = {
     "gemma-7b-it": os.path.join(MODEL_PATH, "gemma-7b-it"),
     # https://huggingface.co/google/gemma-2b-it
     "gemma-2b-it": os.path.join(MODEL_PATH, "gemma-2b-it"),
+    "gemma-2-9b-it": os.path.join(MODEL_PATH, "gemma-2-9b-it"),
+    "gemma-2-27b-it": os.path.join(MODEL_PATH, "gemma-2-27b-it"),
     "starling-lm-7b-beta": os.path.join(MODEL_PATH, "Starling-LM-7B-beta"),
     "deepseek-v2-lite-chat": os.path.join(MODEL_PATH, "DeepSeek-V2-Lite-Chat"),
+    "deepseek-coder-v2-instruct": os.path.join(
+        MODEL_PATH, "DeepSeek-Coder-V2-Instruct"
+    ),
+    "deepseek-coder-v2-lite-instruct": os.path.join(
+        MODEL_PATH, "DeepSeek-Coder-V2-Lite-Instruct"
+    ),
     "sailor-14b-chat": os.path.join(MODEL_PATH, "Sailor-14B-Chat"),
     # https://huggingface.co/microsoft/Phi-3-medium-128k-instruct
     "phi-3-medium-128k-instruct": os.path.join(
@@ -263,6 +271,7 @@ EMBEDDING_MODEL_CONFIG = {
     # Common HTTP embedding model
     "proxy_http_openapi": "proxy_http_openapi",
     "proxy_ollama": "proxy_ollama",
+    "proxy_tongyi": "proxy_tongyi",
     # Rerank model, rerank mode is a special embedding model
     "bge-reranker-base": os.path.join(MODEL_PATH, "bge-reranker-base"),
     "bge-reranker-large": os.path.join(MODEL_PATH, "bge-reranker-large"),
